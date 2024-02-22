@@ -7,7 +7,14 @@ export const loggedContext = createContext({
     setEmail: (address: string) => { },
     password: '',
     setPassword: (pass: string) => { },
-    alertMsg: '',
-    setAlert: (alert: string) => { },
-  
+    emailAlertMsg: '',
+    setEmailAlertMsg: (alert: string) => { },
+    passwordAlertMsg: '',
+    setPasswordAlertMsg: (alert: string) => { },
+    registerPressed:false,
+    setRegisterPressed:(pressed:boolean)=>{},
+    fName: '',
+    setfName: (fName: string) => { },
+    lName: '',
+    setlName: (lName: string) => { },
   })
